@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    
+    font-family: 'protest', serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(47, 138, 139));
+}
+body.Fs{
+    font-family: 'protest', serif;
+    font-size: 1.2em;
+    background-image: linear-gradient(to bottom, rgb(213, 164, 16),rgb(213, 164, 16), rgb(209, 14, 14),rgb(42, 58, 62)); 
+}
+body.Dt{
+    font-family: 'protest', serif;
+    font-size: 1.2em;
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(88, 88, 88),rgb(37, 50, 50));
+}
+body.Htel{
+    font-family: 'protest', serif;
+    font-size: 1.2em;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0),rgb(60, 82, 83),rgb(58, 79, 80),rgb(197, 112, 0));
+}
+body.Ls{
+    font-family: 'protest', serif;
+    font-size: 1.2em;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(91, 123, 124),rgb(60, 82, 83));
+}
+body.Ins{
+    font-family: 'protest', serif;
+    font-size: 1.2em;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0),rgb(60, 82, 83),rgb(197, 112, 0));
+
+}
+
+.fu{
+    text-align: justify;
+    align-items: center;
+    color: rgb(198, 228, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    object-fit: cover;
+}
+.fu-2{
+    text-align: justify;
+    align-items: center;
+    color: rgb(255, 255, 255) ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    object-fit: cover;
+}
+.LS h2{
+    text-align: center;
+}
+header{
+    padding: 0;
+    font-family: 'protest guerrilla', serif;
+    
+}
+
+header.Dt,header.Dt h1 {
+    font-family: "Ruge Boogie", serif;
+    padding: 0;
+    color: aqua;
+      
+}
+  
+header h1{
+    font-weight: 800;
+    font-size: 10rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 10px 10px 0px rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    margin:  -15rem 0 0 0;
+}
+main {  
+    color: rgb(255, 255, 255);
+    object-fit: cover;
+    column-gap: 3rem;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    
+}
+.col-2, .col-3 {
+    
+    
+    
+}
+.col-3{
+    padding:2rem;
+}
+h1, h2, h3 {
+    font-weight: 700;
+    color: rgb(0, 255, 157);
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background-image: linear-gradient();
+    
+}
+div.imng{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background-image: linear-gradient();
+    padding: 2rem 4rem;
+}
+figure{
+    background-color: black;
+    margin-right: 4rem;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255),rgb(47, 138, 139), rgb(0, 74, 76));
+}
+div{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1px;
+}
+.col_1{
+    text-align: center;
+}
+footer{
+    background-color: white;
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+footer a:visited {
+    columns: rgb(221, 45, 1);
+}
+a:hover, a:active {
+    columns: #000;
+    color: rgb(197, 0, 0);
+    text-decoration: none;
+}
+footer a{
+    color: rgb(207, 58, 165);
+}
+main a{
+    color: aqua;
+    background-image:linear-gradient(to bottom,rgb(98, 176, 178), rgb(65, 65, 65));
+    text-decoration: none;
+}
+.noclass {
+    position: relative;
+    padding-bottom: 56.25%; /* Aspect ratio: 16:9 (9/16 = 0.5625) */
+    overflow: hidden;
+    max-width: 100%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     /* Optional: For background when the video doesn't fill the space */
+}
+
+.noclass iframe {
+    position: absolute;
+    top: 1rem;
+    left: 4rem;
+    width: 90%;
+    height: 90%;
+    object-fit: cover; /* Ensures video covers the container without distortion */
+}
+.col-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.isn,.isn h1 {
+    font-family: "Rock Salt", cursive;
+    padding: 0;
+    color: rgb(255, 106, 0);
+    font-weight: 800;
+    font-size: 10rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 10px 10px 0px rgb(0, 0, 0);
+    margin:  -7rem 0 0 0;
+}
+.logo,.logo img{
+    width: 5rem;
+    height: 5rem;
+    border: 4px solid white;
+    background-color: turquoise;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 9;
+    pointer-events: none;
+}
+.audio{
+    width: 25rem;
+    height: 5rem;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 9;
+    
+}
+  
+  
+
+
+
+
+
+
+/*---------media--------------*/
+
+@media screen and (min-width:48rem) {
+    .col-2 {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .col-3 {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        row-gap: 1rem;
+    }
+    .header h1 {
+        font-size: 4rem;
+    }
+    
+    
+}
+@media screen and (min-width:60rem) {
+    .col-3 {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+        row-gap: 2rem;
+    }
+    
+    
+}
+@media screen and (min-width:80rem) {
+    .container {
+        max-width: 76rem;
+    }
+    
+    
+}
+@media screen and (min-width:100rem) {
+    .container {
+        max-width: 90rem;
+    }
+    
+}
